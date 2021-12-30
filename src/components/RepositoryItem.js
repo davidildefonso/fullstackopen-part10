@@ -78,7 +78,7 @@ const RepositoryItem = ({item}) => {
 				<View style={styles.flexContainerCol} >
 					<View style={styles.margin} ><Text>{item.fullName} </Text></View>
 					<View style={ [ styles.fontLight, styles.margin]} ><Text>{item.description} </Text></View>
-					<View style={styles.decorated} ><Text style={styles.textWhite} >{item.language} </Text></View>
+					<View  style={styles.decorated} ><Text style={styles.textWhite} >{item.language} </Text></View>
 				</View>			
 			</View>
 		
