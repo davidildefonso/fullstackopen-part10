@@ -7,7 +7,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+	"git": "git add . && git commit -m",
+  	"postgit": "git push origin main"
   },
   "dependencies": {
     "expo": "~42.0.1",
