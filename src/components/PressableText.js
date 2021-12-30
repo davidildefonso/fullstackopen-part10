@@ -3,12 +3,12 @@ import { Text, Pressable, Alert } from 'react-native';
 
 
 
-const PressableText = () => {
+const PressableText = ({text, styles}) => {
   return (
     <Pressable
       onPress={() => Alert.alert('You pressed the text!')}
     >
-      <Text>You can press me</Text>
+      <Text style={styles} >{text} </Text>
     </Pressable>
   );
 };
